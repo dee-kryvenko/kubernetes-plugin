@@ -49,7 +49,7 @@
     <java.level>8</java.level>
     <jenkins.version>2.263</jenkins.version>
     <no-test-jar>false</no-test-jar>
-    <pipeline-model-definition.version>1.7.2</pipeline-model-definition.version>
+    <pipeline-model-definition.version>1.8.5</pipeline-model-definition.version>
     <useBeta>true</useBeta>
     <jenkins-test-harness.version>2.71</jenkins-test-harness.version>
   </properties>
@@ -58,12 +58,12 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>kubernetes-client-api</artifactId>
-      <version>4.13.2-1</version>
+      <version>5.4.1</version>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>jackson2-api</artifactId>
-      <version>2.12.1</version>
+      <version>2.12.3</version>
     </dependency>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
@@ -216,7 +216,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>bouncycastle-api</artifactId>
-      <version>2.18</version>
+      <version>2.20</version>
       <scope>test</scope>
     </dependency>
     <dependency>
